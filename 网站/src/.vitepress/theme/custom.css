@@ -1,0 +1,102 @@
+:root {
+  --vp-font-family-base: 'Noto Serif SC', 'Source Han Serif SC', 'Songti SC',
+    'SimSun', serif;
+  --vp-font-family-mono: 'JetBrains Mono', 'Sarasa Mono SC', Consolas, monospace;
+  --vp-layout-max-width: 900px;
+}
+
+body {
+  letter-spacing: 0.02em;
+}
+
+.vp-doc {
+  font-size: 1.05rem;
+  line-height: 1.95;
+}
+
+/* 卷标：卷名一行，卷总字数一行 */
+.volume-badge {
+  text-align: center;
+  margin: 0 auto 1.6rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.volume-name {
+  font-size: 1.02rem;
+  letter-spacing: 0.25em;
+  text-indent: 0.25em;
+  color: var(--vp-c-text-1);
+}
+
+.volume-total {
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  color: var(--vp-c-text-3);
+  margin-top: 0.35rem;
+}
+
+/* 侧边栏卷组标题：卷名一行、卷字数一行 */
+.VPSidebarItem.level-0 .text {
+  white-space: pre-line;
+  line-height: 1.6;
+}
+
+/* 章节标题居中 */
+.vp-doc h1 {
+  font-size: 1.7em;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+/* 题记（章节开头的引用） */
+.vp-doc blockquote {
+  border-left: 2px solid var(--vp-c-brand-1);
+  background: rgba(100, 108, 255, 0.05);
+  border-radius: 4px;
+  padding: 0.8rem 1.2rem;
+  margin: 1.5rem 0 2.2rem;
+  color: var(--vp-c-text-2);
+  line-height: 1.95;
+}
+
+.vp-doc blockquote p {
+  line-height: 1.95;
+  margin: 0.6em 0;
+}
+
+.vp-doc blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* 章首题记：居中题词风，与书信引用块区分（书信＝有框有底，题记＝居中无框） */
+.vp-doc h1 + blockquote {
+  border-left: none;
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+  margin: 0.6rem auto 2.6rem;
+  max-width: 80%;
+  text-align: center;
+  color: var(--vp-c-text-2);
+}
+
+.vp-doc h1 + blockquote p {
+  text-align: center;
+  line-height: 1.9;
+  margin: 0;
+}
+
+.vp-doc h1 + blockquote p:last-of-type {
+  font-size: 0.85em;
+  color: var(--vp-c-text-3);
+  margin-top: 0.6em;
+}
+
+/* 分节符 */
+.vp-doc hr {
+  width: 40%;
+  margin: 2.5rem auto;
+  border: none;
+  border-top: 1px solid var(--vp-c-divider);
+}
