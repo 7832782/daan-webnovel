@@ -1,1 +1,0 @@
-import{_ as e,o as a,c as t,ag as _}from"./chunks/framework.Ddwm6YJC.js";const m=JSON.parse('{"title":"第66章 笑场","description":"","frontmatter":{},"headers":[],"relativePath":"第66章_笑场.md","filePath":"第66章_笑场.md"}'),r={name:"第66章_笑场.md"};function o(n,p,s,c,i,d){return a(),t("div",null,[...p[0]||(p[0]=[_("",54)])])}const f=e(r,[["render",o]]);export{m as __pageData,f as default};
