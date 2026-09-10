@@ -21,7 +21,7 @@ const noOf = (f) => Number(f.match(RE)[1])
 const suffixOf = (f) => f.match(RE)[2]
 const itemText = (f) => {
   const m = f.match(RE)
-  return '第' + m[1] + m[2] + '章 ' + m[3]
+  return '第' + m[1] + '章' + m[2] + ' ' + m[3]
 }
 
 // 正文字数：剥掉 markdown 标记后按非空白字符计（小注与题记保留）

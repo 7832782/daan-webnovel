@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,ag as _}from"./chunks/framework.Ddwm6YJC.js";const m=JSON.parse('{"title":"第12章 散场","description":"","frontmatter":{},"headers":[],"relativePath":"第12章_散场.md","filePath":"第12章_散场.md"}'),r={name:"第12章_散场.md"};function o(n,p,s,c,i,d){return a(),t("div",null,[...p[0]||(p[0]=[_("",35)])])}const f=e(r,[["render",o]]);export{m as __pageData,f as default};

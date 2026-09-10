@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,ag as _}from"./chunks/framework.Ddwm6YJC.js";const m=JSON.parse('{"title":"第60章 跨年","description":"","frontmatter":{},"headers":[],"relativePath":"第60章_跨年.md","filePath":"第60章_跨年.md"}'),r={name:"第60章_跨年.md"};function o(n,p,s,c,i,d){return a(),t("div",null,[...p[0]||(p[0]=[_("",82)])])}const f=e(r,[["render",o]]);export{m as __pageData,f as default};

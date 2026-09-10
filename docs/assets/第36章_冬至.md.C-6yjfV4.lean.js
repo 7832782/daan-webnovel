@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,ag as _}from"./chunks/framework.Ddwm6YJC.js";const m=JSON.parse('{"title":"第36章 冬至","description":"","frontmatter":{},"headers":[],"relativePath":"第36章_冬至.md","filePath":"第36章_冬至.md"}'),r={name:"第36章_冬至.md"};function o(n,p,s,c,i,d){return a(),t("div",null,[...p[0]||(p[0]=[_("",78)])])}const f=e(r,[["render",o]]);export{m as __pageData,f as default};

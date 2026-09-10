@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,ag as _}from"./chunks/framework.Ddwm6YJC.js";const m=JSON.parse('{"title":"第72章 满罐","description":"","frontmatter":{},"headers":[],"relativePath":"第72章_满罐.md","filePath":"第72章_满罐.md"}'),r={name:"第72章_满罐.md"};function o(n,p,s,c,i,d){return a(),t("div",null,[...p[0]||(p[0]=[_("",45)])])}const f=e(r,[["render",o]]);export{m as __pageData,f as default};
